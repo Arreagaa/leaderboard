@@ -1,0 +1,40 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@inertiajs/inertia": "^0.11.0",
+        "@inertiajs/inertia-vue3": "^0.6.0",
+        "@inertiajs/progress": "^0.2.7",
+        "@tailwindcss/forms": "^0.5.2",
+        "@tailwindcss/typography": "^0.5.2",
+        "@vitejs/plugin-vue": "^3.0.0",
+        "autoprefixer": "^10.4.7",
+        "axios": "^0.27",
+        "eslint": "^8.20.0",
+        "eslint-plugin-vue": "^9.2.0",
+        "laravel-vite-plugin": "^0.5.0",
+        "lodash": "^4.17.19",
+        "postcss": "^8.4.14",
+        "tailwindcss": "^3.1.0",
+        "vite": "^3.0.0",
+        "vue": "^3.2.31"
+    },
+    "dependencies": {
+        "@fawmi/vue-google-maps": "^0.9.79",
+        "@fortawesome/fontawesome-svg-core": "^6.1.1",
+        "@fortawesome/free-brands-svg-icons": "^6.1.1",
+        "@fortawesome/free-regular-svg-icons": "^6.1.1",
+        "@fortawesome/free-solid-svg-icons": "^6.1.1",
+        "@fortawesome/vue-fontawesome": "^3.0.1",
+        "ag-grid-community": "^28.1.1",
+        "ag-grid-vue3": "^28.1.1",
+        "flatpickr": "^4.6.13",
+        "swiper": "^8.4.7",
+        "vue-select": "^4.0.0-beta.3",
+        "vue2-google-maps": "^0.10.7",
+        "vue3-google-map": "^0.15.0"
+    }
+}

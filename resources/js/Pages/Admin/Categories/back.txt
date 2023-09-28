@@ -1,0 +1,26 @@
+    <LEventRelation
+      :headers="headersAthletes"
+      title="Athletes"
+      :event-id="resource.id"
+      :field="fields.athletes"
+      :resources="resource.athletes"
+    >
+      <template #actions>
+        <div class="">
+          <button
+            class="l-btn-secondary"
+            @click="showAddResult = true"
+          >
+            {{ `Add Result` }}
+          </button>
+        </div>
+      </template>
+    </LEventRelation>
+
+            foreach($category->workouts as $workout) {
+
+            $order_athletes = $category->athletes->sortByDesc('workout_' . $workout->id);
+            foreach ($order_athletes as $key => $athlete) {
+                
+            };
+        }

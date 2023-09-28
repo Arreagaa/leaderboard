@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.max-w-app {
+    @apply max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8;
+}
+.l-card {
+    @apply shadow bg-white rounded-md p-3;
+}
+.l-btn-primary {
+    @apply shadow bg-zinc-900 px-6 py-4 rounded-md cursor-pointer text-white;
+}
+.l-btn-secondary {
+    @apply shadow bg-gray-100 px-4 py-2 rounded-md cursor-pointer text-zinc-900;
+}
+
+.l-alert-danger {
+    @apply p-3 bg-red-100 text-red-400 rounded-md;
+}
+.l-alert-success {
+    @apply p-3 bg-green-100 text-green-600 border border-green-200 rounded-md;
+}
+@font-face {
+    font-family: GeogrotesqueCyr-Bold;
+    src: url("/typography/GeogrotesqueCyr-Bold.ttf");
+}
+@font-face {
+    font-family: GeogrotesqueCyr-SemiBold;
+    src: url("/typography/GeogrotesqueCyr-SemiBold.ttf");
+}
+.GeogrotesqueCyrBold {
+    font-family: GeogrotesqueCyr-Bold;
+}
+.GeogrotesqueCyrSemiBold {
+    font-family: GeogrotesqueCyr-SemiBold;
+}
+.loader {
+    width: 24px;
+    height: 24px;
+    border: 5px solid #fff;
+    border-bottom-color: #00ccff;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background-color: black;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
